@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36D2E44D1A8FF26500A633AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D2E44C1A8FF26500A633AD /* main.m */; };
+		36D2E4501A8FF26500A633AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D2E44F1A8FF26500A633AD /* AppDelegate.m */; };
+		36D2E4531A8FF26500A633AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D2E4521A8FF26500A633AD /* ViewController.m */; };
+		36D2E4561A8FF26500A633AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D2E4541A8FF26500A633AD /* Main.storyboard */; };
+		36D2E4581A8FF26500A633AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D2E4571A8FF26500A633AD /* Images.xcassets */; };
+		36D2E45B1A8FF26500A633AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D2E4591A8FF26500A633AD /* LaunchScreen.xib */; };
+		36D2E4671A8FF26500A633AD /* DynamicImageColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D2E4661A8FF26500A633AD /* DynamicImageColorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36D2E4611A8FF26500A633AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D2E43F1A8FF26500A633AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D2E4461A8FF26500A633AD;
+			remoteInfo = DynamicImageColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36D2E4471A8FF26500A633AD /* DynamicImageColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicImageColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D2E44B1A8FF26500A633AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D2E44C1A8FF26500A633AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36D2E44E1A8FF26500A633AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36D2E44F1A8FF26500A633AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36D2E4511A8FF26500A633AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36D2E4521A8FF26500A633AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36D2E4551A8FF26500A633AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36D2E4571A8FF26500A633AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36D2E45A1A8FF26500A633AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		36D2E4601A8FF26500A633AD /* DynamicImageColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicImageColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D2E4651A8FF26500A633AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D2E4661A8FF26500A633AD /* DynamicImageColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicImageColorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36D2E4441A8FF26500A633AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D2E45D1A8FF26500A633AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36D2E43E1A8FF26500A633AD = {
+			isa = PBXGroup;
+			children = (
+				36D2E4491A8FF26500A633AD /* DynamicImageColor */,
+				36D2E4631A8FF26500A633AD /* DynamicImageColorTests */,
+				36D2E4481A8FF26500A633AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36D2E4481A8FF26500A633AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36D2E4471A8FF26500A633AD /* DynamicImageColor.app */,
+				36D2E4601A8FF26500A633AD /* DynamicImageColorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36D2E4491A8FF26500A633AD /* DynamicImageColor */ = {
+			isa = PBXGroup;
+			children = (
+				36D2E44E1A8FF26500A633AD /* AppDelegate.h */,
+				36D2E44F1A8FF26500A633AD /* AppDelegate.m */,
+				36D2E4511A8FF26500A633AD /* ViewController.h */,
+				36D2E4521A8FF26500A633AD /* ViewController.m */,
+				36D2E4541A8FF26500A633AD /* Main.storyboard */,
+				36D2E4571A8FF26500A633AD /* Images.xcassets */,
+				36D2E4591A8FF26500A633AD /* LaunchScreen.xib */,
+				36D2E44A1A8FF26500A633AD /* Supporting Files */,
+			);
+			path = DynamicImageColor;
+			sourceTree = "<group>";
+		};
+		36D2E44A1A8FF26500A633AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36D2E44B1A8FF26500A633AD /* Info.plist */,
+				36D2E44C1A8FF26500A633AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36D2E4631A8FF26500A633AD /* DynamicImageColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				36D2E4661A8FF26500A633AD /* DynamicImageColorTests.m */,
+				36D2E4641A8FF26500A633AD /* Supporting Files */,
+			);
+			path = DynamicImageColorTests;
+			sourceTree = "<group>";
+		};
+		36D2E4641A8FF26500A633AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36D2E4651A8FF26500A633AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36D2E4461A8FF26500A633AD /* DynamicImageColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D2E46A1A8FF26500A633AD /* Build configuration list for PBXNativeTarget "DynamicImageColor" */;
+			buildPhases = (
+				36D2E4431A8FF26500A633AD /* Sources */,
+				36D2E4441A8FF26500A633AD /* Frameworks */,
+				36D2E4451A8FF26500A633AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicImageColor;
+			productName = DynamicImageColor;
+			productReference = 36D2E4471A8FF26500A633AD /* DynamicImageColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36D2E45F1A8FF26500A633AD /* DynamicImageColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D2E46D1A8FF26500A633AD /* Build configuration list for PBXNativeTarget "DynamicImageColorTests" */;
+			buildPhases = (
+				36D2E45C1A8FF26500A633AD /* Sources */,
+				36D2E45D1A8FF26500A633AD /* Frameworks */,
+				36D2E45E1A8FF26500A633AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D2E4621A8FF26500A633AD /* PBXTargetDependency */,
+			);
+			name = DynamicImageColorTests;
+			productName = DynamicImageColorTests;
+			productReference = 36D2E4601A8FF26500A633AD /* DynamicImageColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36D2E43F1A8FF26500A633AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AD;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alexis Digital";
+				TargetAttributes = {
+					36D2E4461A8FF26500A633AD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					36D2E45F1A8FF26500A633AD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 36D2E4461A8FF26500A633AD;
+					};
+				};
+			};
+			buildConfigurationList = 36D2E4421A8FF26500A633AD /* Build configuration list for PBXProject "DynamicImageColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36D2E43E1A8FF26500A633AD;
+			productRefGroup = 36D2E4481A8FF26500A633AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36D2E4461A8FF26500A633AD /* DynamicImageColor */,
+				36D2E45F1A8FF26500A633AD /* DynamicImageColorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36D2E4451A8FF26500A633AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D2E4561A8FF26500A633AD /* Main.storyboard in Resources */,
+				36D2E45B1A8FF26500A633AD /* LaunchScreen.xib in Resources */,
+				36D2E4581A8FF26500A633AD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D2E45E1A8FF26500A633AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36D2E4431A8FF26500A633AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D2E4531A8FF26500A633AD /* ViewController.m in Sources */,
+				36D2E4501A8FF26500A633AD /* AppDelegate.m in Sources */,
+				36D2E44D1A8FF26500A633AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D2E45C1A8FF26500A633AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D2E4671A8FF26500A633AD /* DynamicImageColorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36D2E4621A8FF26500A633AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36D2E4461A8FF26500A633AD /* DynamicImageColor */;
+			targetProxy = 36D2E4611A8FF26500A633AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36D2E4541A8FF26500A633AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D2E4551A8FF26500A633AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36D2E4591A8FF26500A633AD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D2E45A1A8FF26500A633AD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36D2E4681A8FF26500A633AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36D2E4691A8FF26500A633AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36D2E46B1A8FF26500A633AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicImageColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36D2E46C1A8FF26500A633AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicImageColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36D2E46E1A8FF26500A633AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DynamicImageColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicImageColor.app/DynamicImageColor";
+			};
+			name = Debug;
+		};
+		36D2E46F1A8FF26500A633AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DynamicImageColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicImageColor.app/DynamicImageColor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36D2E4421A8FF26500A633AD /* Build configuration list for PBXProject "DynamicImageColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D2E4681A8FF26500A633AD /* Debug */,
+				36D2E4691A8FF26500A633AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D2E46A1A8FF26500A633AD /* Build configuration list for PBXNativeTarget "DynamicImageColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D2E46B1A8FF26500A633AD /* Debug */,
+				36D2E46C1A8FF26500A633AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D2E46D1A8FF26500A633AD /* Build configuration list for PBXNativeTarget "DynamicImageColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D2E46E1A8FF26500A633AD /* Debug */,
+				36D2E46F1A8FF26500A633AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36D2E43F1A8FF26500A633AD /* Project object */;
+}
