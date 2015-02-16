@@ -14,6 +14,7 @@
 		36D2E4581A8FF26500A633AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D2E4571A8FF26500A633AD /* Images.xcassets */; };
 		36D2E45B1A8FF26500A633AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D2E4591A8FF26500A633AD /* LaunchScreen.xib */; };
 		36D2E4671A8FF26500A633AD /* DynamicImageColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D2E4661A8FF26500A633AD /* DynamicImageColorTests.m */; };
+		36F7A4DD1A9189CA001413B5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36F7A4DB1A9189CA001413B5 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,9 @@
 		36D2E4601A8FF26500A633AD /* DynamicImageColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicImageColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D2E4651A8FF26500A633AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36D2E4661A8FF26500A633AD /* DynamicImageColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicImageColorTests.m; sourceTree = "<group>"; };
+		36F7A4DA1A918985001413B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		36F7A4DC1A9189CA001413B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		36F7A4DE1A9189CD001413B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		36D2E44A1A8FF26500A633AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				36F7A4DB1A9189CA001413B5 /* Localizable.strings */,
 				36D2E44B1A8FF26500A633AD /* Info.plist */,
 				36D2E44C1A8FF26500A633AD /* main.m */,
 			);
@@ -202,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36D2E4561A8FF26500A633AD /* Main.storyboard in Resources */,
+				36F7A4DD1A9189CA001413B5 /* Localizable.strings in Resources */,
 				36D2E45B1A8FF26500A633AD /* LaunchScreen.xib in Resources */,
 				36D2E4581A8FF26500A633AD /* Images.xcassets in Resources */,
 			);
@@ -259,8 +265,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				36D2E45A1A8FF26500A633AD /* Base */,
+				36F7A4DA1A918985001413B5 /* en */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		36F7A4DB1A9189CA001413B5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F7A4DC1A9189CA001413B5 /* en */,
+				36F7A4DE1A9189CD001413B5 /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
