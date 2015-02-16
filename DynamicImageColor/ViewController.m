@@ -21,8 +21,8 @@
  @brief Create the input image once. It's thread-safe.
  */
 @property (nonatomic, readonly) CIImage *inputImage;
+
 @property (nonatomic, weak) IBOutlet UIImageView *imageView;
-@property (nonatomic, weak) IBOutlet UILabel *message;
 
 - (IBAction)sliderChangedAction:(UISlider *)sender;
 
@@ -33,14 +33,6 @@
 // Create instance variables to store values without creating setters.
 @synthesize context = _context;
 @synthesize inputImage = _inputImage;
-
-#pragma mark - View lifecycle
-- (void)viewDidLoad {
-    [super viewDidLoad];
-
-    self.title = NSLocalizedString(@"viewController.title", @"Dynamic image color");
-    self.title = NSLocalizedString(@"viewController.label.message", @"Move the slider to change the color");
-}
 
 #pragma mark - Getters
 - (CIContext *)context {
