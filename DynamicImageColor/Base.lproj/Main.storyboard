@@ -18,13 +18,12 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Move the slider to change the color of the image." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyG-Kf-cBy">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <rect key="frame" x="16" y="111" width="568" height="20.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                <variation key="heightClass=regular-widthClass=compact">
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
-                                    <rect key="frame" x="16" y="111" width="368" height="50.5"/>
                                 </variation>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-3.14159265358979" maxValue="3.1415926535897931" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jUE-3V-5HW">
@@ -34,60 +33,45 @@
                                 </connections>
                             </slider>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stripes" translatesAutoresizingMaskIntoConstraints="NO" id="9iC-Mf-eHi">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <rect key="frame" x="180" y="229" width="240" height="240"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="FU5-vu-yEi"/>
-                                    <constraint firstAttribute="height" constant="240" id="Odd-rG-pgU"/>
+                                    <constraint firstAttribute="width" constant="240" id="FU5-vu-yEi">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="240"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="240" id="Odd-rG-pgU">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="240"/>
+                                    </constraint>
                                 </constraints>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="FU5-vu-yEi"/>
-                                        <include reference="Odd-rG-pgU"/>
-                                    </mask>
-                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="jUE-3V-5HW" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="0tL-cK-aK8"/>
-                            <constraint firstAttribute="centerY" secondItem="9iC-Mf-eHi" secondAttribute="centerY" constant="-49" id="3Eg-Is-IqW"/>
+                            <constraint firstItem="jUE-3V-5HW" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="0tL-cK-aK8">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstAttribute="centerY" secondItem="9iC-Mf-eHi" secondAttribute="centerY" constant="-49" id="3Eg-Is-IqW">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-49"/>
+                            </constraint>
                             <constraint firstItem="jUE-3V-5HW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="P6k-RO-2SD"/>
-                            <constraint firstItem="hyG-Kf-cBy" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Q7v-iI-ByA"/>
+                            <constraint firstItem="hyG-Kf-cBy" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Q7v-iI-ByA">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
                             <constraint firstItem="hyG-Kf-cBy" firstAttribute="top" secondItem="jUE-3V-5HW" secondAttribute="bottom" constant="53" id="g17-GL-CMC"/>
-                            <constraint firstAttribute="centerX" secondItem="9iC-Mf-eHi" secondAttribute="centerX" id="qpA-Bj-ewL"/>
-                            <constraint firstItem="hyG-Kf-cBy" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="sa7-3Q-LoQ"/>
-                            <constraint firstItem="jUE-3V-5HW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="usB-LG-PZu"/>
+                            <constraint firstAttribute="centerX" secondItem="9iC-Mf-eHi" secondAttribute="centerX" id="qpA-Bj-ewL">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="hyG-Kf-cBy" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="sa7-3Q-LoQ">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="jUE-3V-5HW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="usB-LG-PZu">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="hyG-Kf-cBy"/>
-                                <exclude reference="9iC-Mf-eHi"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="0tL-cK-aK8"/>
-                                <exclude reference="P6k-RO-2SD"/>
-                                <exclude reference="usB-LG-PZu"/>
-                                <exclude reference="Q7v-iI-ByA"/>
-                                <exclude reference="g17-GL-CMC"/>
-                                <exclude reference="sa7-3Q-LoQ"/>
-                                <exclude reference="3Eg-Is-IqW"/>
-                                <exclude reference="qpA-Bj-ewL"/>
-                            </mask>
-                        </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="hyG-Kf-cBy"/>
                                 <include reference="9iC-Mf-eHi"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="0tL-cK-aK8"/>
-                                <include reference="P6k-RO-2SD"/>
-                                <include reference="usB-LG-PZu"/>
-                                <include reference="Q7v-iI-ByA"/>
-                                <include reference="g17-GL-CMC"/>
-                                <include reference="sa7-3Q-LoQ"/>
-                                <include reference="3Eg-Is-IqW"/>
-                                <include reference="qpA-Bj-ewL"/>
                             </mask>
                         </variation>
                     </view>

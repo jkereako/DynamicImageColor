@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36803AA11A9184EC00399F7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		36D2E4471A8FF26500A633AD /* DynamicImageColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicImageColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D2E44B1A8FF26500A633AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36D2E44C1A8FF26500A633AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -249,6 +250,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				36D2E4551A8FF26500A633AD /* Base */,
+				36803AA11A9184EC00399F7E /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
