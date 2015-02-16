@@ -21,7 +21,8 @@
  @brief Create the input image once. It's thread-safe.
  */
 @property (nonatomic, readonly) CIImage *inputImage;
-@property (nonatomic) IBOutlet UIImageView *imageView;
+@property (nonatomic, weak) IBOutlet UIImageView *imageView;
+@property (nonatomic, weak) IBOutlet UILabel *message;
 
 - (IBAction)sliderChangedAction:(UISlider *)sender;
 
