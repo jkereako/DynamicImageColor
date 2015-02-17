@@ -59,32 +59,32 @@
 }
 
 - (IBAction)sliderChangedAction:(UISlider *)sender {
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void){
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0),
+                   ^(void) {
+                       // CIFilters are mutable and as such they are not thread-safe. Make sure
+                       // each thread maintains its own CIFilter object.
+                       CIFilter *filter = [CIFilter filterWithName:@"CIHueAdjust"
+                                                     keysAndValues:
+                                           kCIInputImageKey, self.inputImage,
+                                           kCIInputAngleKey, @(sender.value),
+                                           nil];
 
-        // CIFilters are mutable and as such they are not thread-safe. Make sure
-        // each thread maintains its own CIFilter object.
-        CIFilter *filter = [CIFilter filterWithName:@"CIHueAdjust"
-                                      keysAndValues:
-                            kCIInputImageKey, self.inputImage,
-                            kCIInputAngleKey, @(sender.value),
-                            nil];
+                       // The image has not yet been rendered. The CIImage* object contains
+                       // instructions for how to render the image.
+                       CIImage *image = [filter valueForKey:kCIOutputImageKey];
 
-        // The image has not yet been rendered. The CIImage* object contains
-        // instructions for how to render the image.
-        CIImage *image = [filter valueForKey:kCIOutputImageKey];
-
-        // Now, the image has been rendered. This process can take a while so we
-        // have ought to run it asynchronously.
-        CGImageRef __block imageRef = [self.context createCGImage:image fromRect:image.extent];
-
-        dispatch_async(dispatch_get_main_queue(), ^(void){
-            self.imageView.image = [UIImage imageWithCGImage:imageRef];
-
-            // Release the object otherwise you'll end up with a huge leak.
-            CGImageRelease(imageRef);
-        });
-
-    });
+                       // Now, the image has been rendered. This process can take a while so we
+                       // have ought to run it asynchronously.
+                       CGImageRef __block imageRef = [self.context createCGImage:image
+                                                                        fromRect:image.extent];
+                       
+                       dispatch_async(dispatch_get_main_queue(), ^(void) {
+                           self.imageView.image = [UIImage imageWithCGImage:imageRef];
+                           
+                           // Release the object otherwise you'll end up with a huge leak.
+                           CGImageRelease(imageRef);
+                       });
+                   });
 }
 
 @end
