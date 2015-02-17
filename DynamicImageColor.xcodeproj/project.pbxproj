@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		366AB8F01A939656006FACCC /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 366AB8EF1A939656006FACCC /* demo.gif */; };
 		36D2E44D1A8FF26500A633AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D2E44C1A8FF26500A633AD /* main.m */; };
 		36D2E4501A8FF26500A633AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D2E44F1A8FF26500A633AD /* AppDelegate.m */; };
 		36D2E4531A8FF26500A633AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D2E4521A8FF26500A633AD /* ViewController.m */; };
@@ -28,7 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		366AB8EF1A939656006FACCC /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		36803AA11A9184EC00399F7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		36D2E4471A8FF26500A633AD /* DynamicImageColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicImageColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D2E44B1A8FF26500A633AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 		36D2E4491A8FF26500A633AD /* DynamicImageColor */ = {
 			isa = PBXGroup;
 			children = (
-				366AB8EF1A939656006FACCC /* demo.gif */,
 				36D2E44E1A8FF26500A633AD /* AppDelegate.h */,
 				36D2E44F1A8FF26500A633AD /* AppDelegate.m */,
 				36D2E4511A8FF26500A633AD /* ViewController.h */,
@@ -206,7 +203,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36D2E4561A8FF26500A633AD /* Main.storyboard in Resources */,
-				366AB8F01A939656006FACCC /* demo.gif in Resources */,
 				36D2E45B1A8FF26500A633AD /* LaunchScreen.xib in Resources */,
 				36D2E4581A8FF26500A633AD /* Images.xcassets in Resources */,
 			);
