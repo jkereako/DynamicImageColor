@@ -73,8 +73,8 @@
 		3621E7331C91FF520061A79C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				36D2E4541A8FF26500A633AD /* Main.storyboard */,
 				36D2E4571A8FF26500A633AD /* Images.xcassets */,
+				36D2E4541A8FF26500A633AD /* Main.storyboard */,
 				36D2E4591A8FF26500A633AD /* LaunchScreen.xib */,
 			);
 			path = Resources;
@@ -83,10 +83,10 @@
 		36D2E43E1A8FF26500A633AD = {
 			isa = PBXGroup;
 			children = (
-				3621E7331C91FF520061A79C /* Resources */,
-				36D2E44A1A8FF26500A633AD /* SupportFiles */,
-				3621E7321C91FF380061A79C /* Tests */,
 				36D2E4491A8FF26500A633AD /* Source */,
+				3621E7331C91FF520061A79C /* Resources */,
+				3621E7321C91FF380061A79C /* Tests */,
+				36D2E44A1A8FF26500A633AD /* SupportFiles */,
 				36D2E4481A8FF26500A633AD /* Products */,
 			);
 			sourceTree = "<group>";
