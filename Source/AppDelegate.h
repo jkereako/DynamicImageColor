@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AppDelegate.h
 //  DynamicImageColor
 //
 //  Created by Jeffrey Kereakoglow on 2/14/15.
@@ -8,8 +8,8 @@
 
 @import UIKit;
 
-@interface ViewController : UIViewController
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+@property (strong, nonatomic) UIWindow *window;
 
 @end
-
